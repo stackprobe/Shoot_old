@@ -1,0 +1,5 @@
+Etcetera\Sine90.txt
+Etcetera\DatStrings.txt
+Etcetera\JChar.bin
+Resource\jiki-koakuma-sozai\19740345_big_p1.png
+res\Script\0001.csv

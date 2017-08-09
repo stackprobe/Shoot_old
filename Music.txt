@@ -1,0 +1,9 @@
+C:\Dat\muon.wav
+Resource\hmix\c22.mp3
+Resource\hmix\c26.mp3
+Resource\hmix\v8.mp3
+Resource\maou-damashii\bgm_maoudamashii_orchestra12.mp3
+Resource\hmix\n62.mp3
+Resource\maou-damashii\bgm_maoudamashii_orchestra11_muon-cut.mp3
+Resource\hmix\n4.mp3
+C:\Dat\muon.wav
