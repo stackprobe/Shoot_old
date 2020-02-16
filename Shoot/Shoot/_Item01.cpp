@@ -4,7 +4,7 @@
 
 static I01_t *Create_I01(autoList<double> *args)
 {
-	I01_t *e = nb(I01_t);
+	I01_t *e = nb_(I01_t);
 	int rIndex = 0;
 
 	e->Kind = nextArg_i(args, rIndex, 0, ITEM_KIND_NUM - 1);

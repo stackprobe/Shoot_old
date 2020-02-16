@@ -22,7 +22,7 @@ FontFile_t *AddFontFile(char *fontLocalFile)
 	errorCase(!AddFontResourceEx(fontFile, FR_PRIVATE, NULL)); // ? Ž¸”s
 	LOG("AddFontResourceEx ED %u\n", (uint)time(NULL));
 
-	FontFile_t *ff = nb(FontFile_t);
+	FontFile_t *ff = nb_(FontFile_t);
 	ff->File = fontFile;
 	return ff;
 }
@@ -58,7 +58,7 @@ FontHandle_t *CreateFontHandle(char *fontName, int fontSize, int fontThick, int 
 
 	errorCase(h == -1); // ? Ž¸”s
 
-	FontHandle_t *fh = nb(FontHandle_t);
+	FontHandle_t *fh = nb_(FontHandle_t);
 	fh->Handle = h;
 	fh->FontName = strx(fontName);
 	fh->FontSize = fontSize;

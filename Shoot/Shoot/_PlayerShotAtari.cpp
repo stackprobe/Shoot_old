@@ -7,7 +7,7 @@ PlayerShotAtari_t *CreatePlayerShotAtari(PlayerShot_t *owner, double x, double y
 	// y
 	errorCase(r < 1.0);
 
-	PlayerShotAtari_t *i = nb(PlayerShotAtari_t);
+	PlayerShotAtari_t *i = nb_(PlayerShotAtari_t);
 
 	i->Owner = owner;
 	i->X = x;

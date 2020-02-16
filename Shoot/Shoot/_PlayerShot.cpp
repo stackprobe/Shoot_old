@@ -11,7 +11,7 @@ PlayerShot_t *CreatePlayerShot(int kind, double x, double y, double r, double ra
 	// ra
 	errorCase(level < 0 || PLAYERLEVEL_MAX < level);
 
-	PlayerShot_t *i = nb(PlayerShot_t);
+	PlayerShot_t *i = nb_(PlayerShot_t);
 
 	i->Kind = kind;
 	i->Level = level;

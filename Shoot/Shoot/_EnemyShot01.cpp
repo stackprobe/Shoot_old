@@ -4,7 +4,7 @@
 
 static ES01_t *Create_ES01(autoList<double> *args)
 {
-	ES01_t *e = nb(ES01_t);
+	ES01_t *e = nb_(ES01_t);
 	int rIndex = 0;
 
 	e->Kind = nextArg_i(args, rIndex, 0, TAMA_KIND_NUM - 1);

@@ -8,7 +8,7 @@ EnemyCommonData_t *GetECD(int kind, int hp, int transFrame, double x, double y, 
 	static EnemyCommonData_t *ecd;
 
 	if(!ecd)
-		ecd = nb(EnemyCommonData_t);
+		ecd = nb_(EnemyCommonData_t);
 
 	ecd->Kind = kind;
 	ecd->HP = hp;

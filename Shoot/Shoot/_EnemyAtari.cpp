@@ -7,7 +7,7 @@ EnemyAtari_t *CreateEnemyAtari(Enemy_t *owner, double x, double y, double r)
 	// y
 	errorCase(r < 1.0);
 
-	EnemyAtari_t *i = nb(EnemyAtari_t);
+	EnemyAtari_t *i = nb_(EnemyAtari_t);
 
 	i->Kind = EAK_CIRCLE;
 	i->Owner = owner;
@@ -25,7 +25,7 @@ EnemyAtari_t *CreateEnemyAtari_Rect(Enemy_t *owner, double l, double t, double w
 	errorCase(w < 1.0);
 	errorCase(h < 1.0);
 
-	EnemyAtari_t *i = nb(EnemyAtari_t);
+	EnemyAtari_t *i = nb_(EnemyAtari_t);
 
 	i->Kind = EAK_RECT;
 	i->Owner = owner;

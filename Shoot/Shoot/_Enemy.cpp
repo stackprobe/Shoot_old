@@ -20,7 +20,7 @@ Enemy_t *CreateEnemy_ved(
 	errorCase(!m_isRange(ecd->Y, -IMAX, IMAX));
 	errorCase(!m_isRange(ecd->DropItemType, 0, IMAX));
 
-	Enemy_t *i = nb(Enemy_t);
+	Enemy_t *i = nb_(Enemy_t);
 
 	i->EachFrameFunc = eachFrameFunc;
 	i->DeadEventFunc = deadEventFunc;

@@ -58,7 +58,7 @@ Enemy_t *CreateEnemy(
 	)
 {
 	if(!extraData)
-		extraData = nb(ExtraData_t);
+		extraData = nb_(ExtraData_t);
 
 	return CreateEnemy_ved(
 		(int (*)(Enemy_t *, void *))eachFrameFunc,

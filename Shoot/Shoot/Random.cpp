@@ -231,7 +231,7 @@ void leaveRnd(int *p_lmti)
 
 rnd_t *createRnd(int seed)
 {
-	rnd_t *r = nb(rnd_t);
+	rnd_t *r = nb_(rnd_t);
 
 	r->mt = (unsigned long *)memAlloc_NC(MT19937_N * sizeof(unsigned long));
 

@@ -4,7 +4,7 @@
 
 static E01_t *Create_E01(autoList<double> *args)
 {
-	E01_t *e = nb(E01_t);
+	E01_t *e = nb_(E01_t);
 	int rIndex = 0;
 
 	e->FEKind = nextArg_i(args, rIndex, 0, FAIRYETC_KIND_NUM - 1);
@@ -57,7 +57,7 @@ Enemy_t *Make_E01(autoList<double> *args, EnemyCommonData_t *ecd)
 
 static E02_t *Create_E02(autoList<double> *args)
 {
-	E02_t *e = nb(E02_t);
+	E02_t *e = nb_(E02_t);
 	int rIndex = 0;
 
 	e->FEKind = nextArg_i(args, rIndex, 0, FAIRYETC_KIND_NUM - 1);
@@ -111,7 +111,7 @@ Enemy_t *Make_E02(autoList<double> *args, EnemyCommonData_t *ecd)
 
 static E03_t *Create_E03(autoList<double> *args)
 {
-	E03_t *e = nb(E03_t);
+	E03_t *e = nb_(E03_t);
 	int rIndex = 0;
 
 	e->FEKind = nextArg_i(args, rIndex, 0, FAIRYETC_KIND_NUM - 1);

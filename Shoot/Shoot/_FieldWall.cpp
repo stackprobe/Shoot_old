@@ -38,7 +38,7 @@ FieldWall_t *CreateFieldWall(
 	m_range(a_max, 0.0, 1.0);
 	m_range(die_a_add, -1.0, 0.0);
 
-	FieldWall_t *i = nb(FieldWall_t);
+	FieldWall_t *i = nb_(FieldWall_t);
 
 	i->PicId = picId;
 	i->PicRes = picRes;

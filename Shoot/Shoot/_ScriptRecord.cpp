@@ -2,7 +2,7 @@
 
 ScrRec_t *CreateScrRec(void)
 {
-	ScrRec_t *i = nb(ScrRec_t);
+	ScrRec_t *i = nb_(ScrRec_t);
 
 	return i;
 }

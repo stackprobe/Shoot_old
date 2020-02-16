@@ -4,7 +4,7 @@
 
 static JackOLantern_t *Create_JackOLantern(autoList<double> *args)
 {
-	JackOLantern_t *e = nb(JackOLantern_t);
+	JackOLantern_t *e = nb_(JackOLantern_t);
 	int rIndex = 0;
 
 	e->ShotType = nextArg_i(args, rIndex, 0, IMAX);
@@ -65,7 +65,7 @@ Enemy_t *Make_JackOLantern(autoList<double> *args, EnemyCommonData_t *ecd)
 
 static BigJackOLantern_t *Create_BigJackOLantern(autoList<double> *args)
 {
-	BigJackOLantern_t *e = nb(BigJackOLantern_t);
+	BigJackOLantern_t *e = nb_(BigJackOLantern_t);
 	int rIndex = 0;
 
 	e->ShotType = nextArg_i(args, rIndex, 0, IMAX);

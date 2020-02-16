@@ -2,7 +2,7 @@
 
 PlayerAtari_t *CreatePlayerAtari(double x, double y)
 {
-	PlayerAtari_t *i = nb(PlayerAtari_t);
+	PlayerAtari_t *i = nb_(PlayerAtari_t);
 
 	i->X = x;
 	i->Y = y;
