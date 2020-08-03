@@ -88,7 +88,7 @@ static void PauseMain(void)
 
 		if(pauseInp == 0)
 		{
-			// todo: input
+			// HACK: input
 		}
 
 		DrawWall();

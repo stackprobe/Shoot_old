@@ -13,8 +13,8 @@ void ProcMain(void)
 	GameMain();
 	GameFnlz();
 #elif 0 // test
-	error(); // todo
+	error(); // HACK
 #else
-	error(); // todo
+	error(); // HACK
 #endif
 }
