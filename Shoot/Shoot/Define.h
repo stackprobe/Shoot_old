@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-// ’è”Ô {
+// ’è”Ô --->
 #include <conio.h>
 #include <ctype.h>
 #include <direct.h>
@@ -21,7 +21,7 @@
 #include <time.h>
 
 #include <windows.h>
-// }
+// <--- ’è”Ô
 
 #include <DxLib.h>
 
