@@ -10,6 +10,6 @@ Shoot_old
 ----------------
 
 こちらからダウンロードできます。
-http://cerulean.fam.cx:58946/beta/
+http://cerulean.ccsp.mydns.jp/beta/
 -> Shooting_BETA_xxx...xxx.zip
 
