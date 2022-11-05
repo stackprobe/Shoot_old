@@ -9,7 +9,5 @@ Shoot_old
 ビルド済み配布物
 ----------------
 
-こちらからダウンロードできます。
-http://cerulean.ccsp.mydns.jp/beta/
--> Shooting_BETA_xxx...xxx.zip
+NULL
 
